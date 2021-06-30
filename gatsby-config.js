@@ -87,6 +87,7 @@ module.exports = {
                         template
                         draft
                         description
+                        comments
                       }
                     }
                   }
