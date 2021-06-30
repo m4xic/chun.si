@@ -1,43 +1,39 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://www.chun.si',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
+  title: 'Max\'s Blog',
+  subtitle: 'Hello!',
+  copyright: '© 2021. All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: '',
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Posts',
       path: '/'
     },
     {
-      label: 'About me',
+      label: 'About',
       path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'maxic',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Hi!',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'm@xic.email',
+      facebook: '',
+      telegram: '',
+      twitter: '',
+      github: 'm4xic',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'chunsi',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',

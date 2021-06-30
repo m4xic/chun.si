@@ -22,7 +22,7 @@ const PageTemplate = ({ data }: Props) => {
   const socialImageUrl = socialImage?.publicURL;
 
   return (
-    <Layout title={`${pageTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImageUrl} >
+    <Layout title={`${pageTitle} • ${siteTitle}`} description={metaDescription} socialImage={socialImageUrl} >
       <Sidebar />
       <Page title={pageTitle}>
         <div dangerouslySetInnerHTML={{ __html: pageBody }} />

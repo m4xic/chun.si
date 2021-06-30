@@ -20,7 +20,7 @@ const PostTemplate = ({ data }: Props) => {
   const socialImageUrl = socialImage?.publicURL;
 
   return (
-    <Layout title={`${postTitle} - ${siteTitle}`} description={metaDescription} socialImage={socialImageUrl} >
+    <Layout title={`${postTitle} • ${siteTitle}`} description={metaDescription} socialImage={socialImageUrl} >
       <Post post={data.markdownRemark} />
     </Layout>
   );
