@@ -8,7 +8,7 @@ type Props = {
 const Comments = ({ comments }: Props) => {
 
   if (!comments) {
-    return (<p>( Comments are disabled on this post. )</p>);
+    return (<p>( {comments} are disabled on this post. )</p>);
   }
 
   return (
