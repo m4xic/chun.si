@@ -21,7 +21,7 @@ module.exports = {
     }
   ],
   author: {
-    name: 'maxic',
+    name: 'Max Chunsi',
     photo: '/photo.jpg',
     bio: 'Hi!',
     contacts: {
