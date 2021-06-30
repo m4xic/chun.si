@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://www.chun.si',
   pathPrefix: '/',
-  title: 'Max\'s Blog',
+  title: 'chuns.i',
   subtitle: 'Mostly incoherent ramblings and code writeups.',
   copyright: '© 2021. All rights reserved.',
   disqusShortname: '',
@@ -12,18 +12,18 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Posts',
+      label: 'Posts 📚',
       path: '/'
     },
     {
-      label: 'About',
+      label: 'About 🙋🏽‍♂️',
       path: '/pages/about'
     }
   ],
   author: {
-    name: 'Max Chunsi',
+    name: 'Max Chunsi 👨🏽‍💻',
     photo: '/photo.jpg',
-    bio: 'Hi! I\'m Max, and I\'m a Cyber Security graduate from the UK. Lovely to meet you!',
+    bio: 'Hi! I\'m Max, and I\'m a Cyber Security graduate from the UK. Lovely to meet you! 😁',
     contacts: {
       email: 'm@xic.email',
       facebook: '',
