@@ -27,7 +27,7 @@ const TagTemplate = ({ data, pageContext }: Props) => {
   } = pageContext;
 
   const { edges } = data.allMarkdownRemark;
-  const pageTitle = currentPage > 0 ? `All posts tagged as ${tag}: Page ${currentPage} • ${siteTitle}` : `All Posts tagged as "${tag}" • ${siteTitle}`;
+  const pageTitle = currentPage > 0 ? `All posts tagged as ${tag}: Page ${currentPage} • ${siteTitle}` : `All posts tagged as "${tag}" • ${siteTitle}`;
 
   return (
     <Layout title={pageTitle} description={siteSubtitle}>
