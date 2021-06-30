@@ -7,7 +7,6 @@ import Meta from './Meta';
 import Tags from './Tags';
 import styles from './Post.module.scss';
 import type { Node } from '../../types';
-import 'littlefoot/dist/littlefoot.css'
 
 type Props = {
   post: Node,
