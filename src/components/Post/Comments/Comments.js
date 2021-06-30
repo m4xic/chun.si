@@ -11,6 +11,8 @@ const Comments = ({ comments }: Props) => {
     return (<p>( Comments are disabled on this post. )</p>);
   }
 
+  return (<p>( Comments are currently disabled on <b>chun.si</b>. )</p>)
+
   return (
     <script src="https://utteranc.es/client.js"
         repo="m4xic/chun.si"
