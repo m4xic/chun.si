@@ -170,18 +170,6 @@ module.exports = {
       }
     },
     {
-      resolve: 'gatsby-plugin-manifest',
-      options: {
-        name: siteConfig.title,
-        short_name: siteConfig.title,
-        start_url: '/',
-        background_color: '#FFF',
-        theme_color: '#a47efe',
-        display: 'standalone',
-        icon: 'static/photo.jpg'
-      },
-    },
-    {
       resolve: 'gatsby-plugin-offline',
       options: {
         workboxConfig: {
