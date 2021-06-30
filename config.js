@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://www.chun.si',
   pathPrefix: '/',
-  title: 'chuns.i',
+  title: 'chun.si',
   subtitle: 'Mostly incoherent ramblings and code writeups.',
   copyright: '© 2021. All rights reserved.',
   disqusShortname: '',
