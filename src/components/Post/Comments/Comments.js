@@ -1,27 +1,24 @@
 // @flow strict
 import React from 'react';
-import ReactDisqusComments from 'react-disqus-comments';
-import { useSiteMetadata } from '../../../hooks';
 
 type Props = {
-  postTitle: string,
-  postSlug: string
+  comments: boolean
 };
 
-const Comments = ({ postTitle, postSlug }: Props) => {
-  const { url, disqusShortname } = useSiteMetadata();
+const Comments = ({ comments }: Props) => {
 
-  if (!disqusShortname) {
-    return null;
+  if (!comments) {
+    return (<p>( Comments are disabled on this post. )</p>);
   }
 
   return (
-    <ReactDisqusComments
-      shortname={disqusShortname}
-      identifier={postTitle}
-      title={postTitle}
-      url={url + postSlug}
-    />
+    <script src="https://utteranc.es/client.js"
+        repo="m4xic/chun.si"
+        issue-term="pathname"
+        theme="preferred-color-scheme"
+        crossorigin="anonymous"
+        async>
+    </script>
   );
 };
 
