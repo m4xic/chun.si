@@ -21,6 +21,9 @@ const getContactHref = (name: string, contact: string) => {
     case 'linkedin':
       href = `https://www.linkedin.com/in/${contact}`;
       break;
+    case 'polywork':
+      href = `${contact}`;
+      break;
     case 'instagram':
       href = `https://www.instagram.com/${contact}`;
       break;

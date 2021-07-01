@@ -33,6 +33,7 @@ module.exports = {
       rss: '',
       vkontakte: '',
       linkedin: 'chunsi',
+      polywork: 'https://work.chun.si',
       instagram: '',
       line: '',
       gitlab: '',
