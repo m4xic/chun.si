@@ -41,6 +41,12 @@ const Layout = ({
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e0d6ff" />
         <meta name="msapplication-TileColor" content="#e0d6ff" />
         <meta name="theme-color" content="#ffffff" />
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/littlefoot/dist/littlefoot.css"
+        />
+
+
       </Helmet>
       {children}
     </div>

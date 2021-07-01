@@ -35,6 +35,11 @@ const Post = ({ post, comments }: Props) => {
         <Comments comments={comments} />
       </div>
     </div>
+
+    <script src="https://unpkg.com/littlefoot/dist/littlefoot.js" type="application/javascript"></script>
+    <script type="application/javascript">
+    littlefoot.littlefoot()
+    </script>
   );
 };
 
