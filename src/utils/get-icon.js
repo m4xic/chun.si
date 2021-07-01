@@ -27,7 +27,7 @@ const getIcon = (name: string) => {
       icon = ICONS.LINKEDIN;
       break;
     case 'polywork':
-      icon = ICONS.POLYWORK:
+      icon = ICONS.POLYWORK;
       break;
     case 'instagram':
       icon = ICONS.INSTAGRAM;

@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: '/',
   title: 'chun.si',
   subtitle: 'Mostly incoherent ramblings and code writeups.',
-  copyright: '© 2021. All rights reserved.',
+  copyright: '© for year in range(2021,{currentYear}). All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
   googleAnalyticsId: '',
